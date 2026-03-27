@@ -1,0 +1,40 @@
+body {
+  margin: 12px;
+  font-family: sans-serif;
+  background-color: #222;
+  color: #ddd;
+}
+body::selection {
+  background-color: #ccc;
+}
+
+a {
+  text-decoration: none;
+  color: #3465a4;
+}
+a:hover { text-decoration: underline; }
+
+table {
+  border-collapse: collapse;
+}
+table#videos > tr > td {
+  padding-bottom: 12px;
+}
+table.info {
+  margin-left: 8px;
+}
+
+.channel > * {
+  vertical-align: middle;
+}
+
+img.thumb {
+  height: 180px;
+  border-radius: 8px;
+}
+
+.channel img {
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 8px;
+}

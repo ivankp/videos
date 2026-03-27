@@ -1,0 +1,66 @@
+{
+"videos": [{
+  "id": "zB6ORpZjneQ",
+  "title": "The Pattern Matching We Already Have",
+  "speaker": "Braden Ganetsky",
+  "event": "CppCon 2025",
+  "channel": "CppCon",
+  "date": {
+    "uploaded": "2026-03-18",
+    "found": "2026-03-26"
+  }
+},{
+  "id": "8sEe-4tig_A",
+  "title": "C++20's Coroutines for Beginners",
+  "speaker": "Andreas Fertig",
+  "event": "CppCon 2022",
+  "channel": "CppCon",
+  "date": {
+    "uploaded": "2022-10-17",
+    "found": "2026-03-25"
+  }
+},{
+  "id": "uFET2vifHh4",
+  "title": "C can do this too and it's faster than Python",
+  "channel": "TsodingDaily",
+  "date": {
+    "uploaded": "2025-02-10",
+    "found": "2026-03-17"
+  }
+},{
+  "id": "sYSP_elDdZw",
+  "title": "I made Coroutines from scratch",
+  "channel": "TsodingDaily",
+  "date": {
+    "uploaded": "2025-01-13",
+    "found": "2026-03-13"
+  }
+},{
+  "id": "VdHR5EOZNKk",
+  "title": "The Past, Present and Future of Programming Languages",
+  "speaker": "Kevlin Henney",
+  "event": "NDC TechTown 2025",
+  "channel": "NDC",
+  "date": {
+    "uploaded": "2025-12-31",
+    "found": "2026-03-02"
+  }
+},{
+  "id": "aoag03mSuXQ",
+  "title": "The Internet Was Weeks Away From Disaster and No One Knew",
+  "channel": "veritasium",
+  "date": {
+    "uploaded": "2026-02-25",
+    "found": "2026-03-01"
+  }
+}],
+"channels": {
+  "TsodingDaily": "Tsoding Daily",
+  "NDC": "NDC Conferences",
+  "veritasium": "Veritasium"
+},
+"events": {
+  "CppCon 2025": "https://www.youtube.com/playlist?list=PLHTh1InhhwT57vblPGsVag5MkTm_Z9-uq",
+  "CppCon 2022": "https://www.youtube.com/playlist?list=PLHTh1InhhwT6c2JNtUiJkaH8YRqzhU7Ag"
+}
+}
