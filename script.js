@@ -48,6 +48,8 @@ const $ = (p, ...args) => {
 };
 const $$ = (...args) => p => $(p, ...args);
 
+const $then = (x, f) => x != null ? f(x) : null;
+
 const months = ['Jan','Feb','Mar','Apr','May','June','July','Aug','Sep','Oct','Nov','Dec'];
 
 const $fetch = async (url, json = true) => {
@@ -89,8 +91,7 @@ document.addEventListener('DOMContentLoaded', () => {
             );
           }
           $(t, 'tr', 'td', { text: video.title });
-          if (video.speaker)
-            $(t, 'tr', 'td', { text: video.speaker });
+          $then(video.speaker, text => $(t, 'tr', 'td', { text }));
           if (video.event) {
             const url = videos.events[video.event];
             $(t, 'tr', 'td', ...( url
@@ -99,8 +100,7 @@ document.addEventListener('DOMContentLoaded', () => {
             ));
           }
           let d = date(video.uploaded);
-          if (video.found)
-            d += ` (${date(video.found)})`;
+          $then(video.found, x => d += ` (${date(x)})`);
           $(t, 'tr', 'td', { text: d });
         })
       );
