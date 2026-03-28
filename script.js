@@ -72,15 +72,22 @@ document.addEventListener('DOMContentLoaded', () => {
       $(table, 'tr',
         $$('td',
           'a', { href: 'https://youtu.be/' + video.id },
-          'img', ['thumb'],
-            { src: 'https://img.youtube.com/vi/' + video.id + '/mqdefault.jpg' }
+          'img', ['thumb'], {
+            src: 'https://img.youtube.com/vi/' + video.id + '/mqdefault.jpg',
+            loading: 'lazy'
+          }
         ),
         $$('td', 'table', ['info'], t => {
-          $(t, 'tr', 'td',
-            'a', ['channel'], { href: 'https://www.youtube.com/@' + video.channel },
-              $$('img', { src: 'channels/' + video.channel + '.jpg' }),
-              $$('span', { text: videos.channels[video.channel] || video.channel })
-          );
+          const channel = videos.channels[video.channel];
+          if (channel) {
+            $(t, 'tr', 'td',
+              'a', ['channel'], { href: 'https://www.youtube.com/' + (
+                channel.at ? '@' + channel.at : 'channel/' + channel.id
+              ) },
+                $$('img', { src: channel.logo }),
+                $$('span', { text: channel.name })
+            );
+          }
           $(t, 'tr', 'td', { text: video.title });
           if (video.speaker)
             $(t, 'tr', 'td', { text: video.speaker });
@@ -91,7 +98,10 @@ document.addEventListener('DOMContentLoaded', () => {
               : [ { text: video.event } ]
             ));
           }
-          $(t, 'tr', 'td', { text: `${date(video.date.uploaded)} (${date(video.date.found)})` });
+          let d = date(video.uploaded);
+          if (video.found)
+            d += ` (${date(video.found)})`;
+          $(t, 'tr', 'td', { text: d });
         })
       );
     }

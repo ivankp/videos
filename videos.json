@@ -5,62 +5,112 @@
   "speaker": "Braden Ganetsky",
   "event": "CppCon 2025",
   "channel": "CppCon",
-  "date": {
-    "uploaded": "2026-03-18",
-    "found": "2026-03-26"
-  }
+  "uploaded": "2026-03-18",
+  "found": "2026-03-26"
 },{
   "id": "8sEe-4tig_A",
   "title": "C++20's Coroutines for Beginners",
   "speaker": "Andreas Fertig",
   "event": "CppCon 2022",
   "channel": "CppCon",
-  "date": {
-    "uploaded": "2022-10-17",
-    "found": "2026-03-25"
-  }
+  "uploaded": "2022-10-17",
+  "found": "2026-03-25"
 },{
   "id": "uFET2vifHh4",
   "title": "C can do this too and it's faster than Python",
   "channel": "TsodingDaily",
-  "date": {
-    "uploaded": "2025-02-10",
-    "found": "2026-03-17"
-  }
+  "uploaded": "2025-02-10",
+  "found": "2026-03-17"
 },{
   "id": "sYSP_elDdZw",
   "title": "I made Coroutines from scratch",
   "channel": "TsodingDaily",
-  "date": {
-    "uploaded": "2025-01-13",
-    "found": "2026-03-13"
-  }
+  "uploaded": "2025-01-13",
+  "found": "2026-03-13"
 },{
   "id": "VdHR5EOZNKk",
   "title": "The Past, Present and Future of Programming Languages",
   "speaker": "Kevlin Henney",
   "event": "NDC TechTown 2025",
   "channel": "NDC",
-  "date": {
-    "uploaded": "2025-12-31",
-    "found": "2026-03-02"
-  }
+  "uploaded": "2025-12-31",
+  "found": "2026-03-02"
 },{
   "id": "aoag03mSuXQ",
   "title": "The Internet Was Weeks Away From Disaster and No One Knew",
   "channel": "veritasium",
-  "date": {
-    "uploaded": "2026-02-25",
-    "found": "2026-03-01"
-  }
-}],
+  "uploaded": "2026-02-25",
+  "found": "2026-03-01"
+},{
+  "id": "qH6sSOr-yk8",
+  "channel": "PauloPortela",
+  "title": "C++ Seasoning",
+  "description": "Day 1 - A look at many of the new features in C++ and a couple of old features you may not have known about. With the goal of correctness in mind, we'll see how to utilize these features to create simple, clear, and beautiful code. Just a little pinch can really spice things up.",
+  "speaker": "Sean Parent",
+  "event": "GoingNative 2013",
+  "duration": 4632,
+  "uploaded": "2013-09-16",
+  "tags": [ "c++" ]
+},{
+  "id": "bIhUE5uUFOA",
+  "channel": "PauloPortela",
+  "title": "Inheritance Is The Base Class of Evil",
+  "description": "Day 3 - Implementing non-intrusive runtime polymorphic objects with value-semantics, and multiple-undo in 20 minutes.",
+  "speaker": "Sean Parent",
+  "event": "GoingNative 2013",
+  "duration": 1460,
+  "uploaded": "2013-09-23",
+  "tags": [ "c++" ]
+},{
+  "id": "wo84LFzx5nI",
+  "channel": "BetterSoftwareConference",
+  "title": "The Big OOPs: Anatomy of a Thirty-five-year Mistake",
+  "description": "Casey Muratori's talk at BSC 2025.\n\nCasey's links:\n- https://ComputerEnhance.com/\n- https://x.com/cmuratori/\n\nBSC links:\n- https://BetterSoftwareConference.com/\n- https://x.com/BetterSoftwareC\n\nChapters:\n0:00:00 Talk\n1:50:11 Q&A",
+  "speaker": "Casey Muratori",
+  "event": "BSC 2025",
+  "duration": 8853,
+  "uploaded": "2025-07-17",
+  "tags": [ "Handmade Hero", "Programming", "Coding", "Software", "Software Development" ]
+}
+],
 "channels": {
-  "TsodingDaily": "Tsoding Daily",
-  "NDC": "NDC Conferences",
-  "veritasium": "Veritasium"
+  "CppCon": {
+    "name": "CppCon",
+    "at": "CppCon",
+    "logo": "https://yt3.googleusercontent.com/ytc/AIdro_l0Ji0L8P1v-r0c5MwPcEUM9NwrhI-B7NK9qF2sO6oM-w=s160-c-k-c0x00ffffff-no-rj"
+  },
+  "TsodingDaily": {
+    "name": "Tsoding Daily",
+    "at": "TsodingDaily",
+    "logo": "https://yt3.googleusercontent.com/sVrBLZ9iy76XIN5eSdlLqLVQsy60VaQ_YD_Vvu1tTyRIw5Yk9OZK2ZoKhiZh4svRMzm6OZ_M=s160-c-k-c0x00ffffff-no-rj"
+  },
+  "NDC": {
+    "name": "NDC Conferences",
+    "at": "NDC",
+    "logo": "https://yt3.googleusercontent.com/ytc/AIdro_m9F60Dip2aA-2SkED8ssMmJ1oAiqU7JVevR8ZWKnqsNnU=s160-c-k-c0x00ffffff-no-rj"
+  },
+  "veritasium": {
+    "name": "Veritasium",
+    "at": "veritasium",
+    "logo": "https://yt3.googleusercontent.com/7vCbvtCqtjQ3YLgsJt7Y952MQV1sBvhllSCSxHP8_sVZdcPCBrITfhkN2RdyCuwPnsByq-1GoA=s160-c-k-c0x00ffffff-no-rj"
+  },
+  "PauloPortela": {
+    "name": "Paulo Portela",
+    "at": "PauloPortela",
+    "id": "UCJwyXCf_TbyjbTNYG4q2XaQ",
+    "logo": "https://yt3.googleusercontent.com/ytc/AIdro_n1B_QvWEEe5hKvydt18PqyV8_kqrj8I42U9OenxwdKv9o=s160-c-k-c0x00ffffff-no-rj"
+  },
+  "BetterSoftwareConference": {
+    "name": "Better Software Conference",
+    "at": "BetterSoftwareConference",
+    "id": "UCYI-TL0LoFRl1gFnnUFwdow",
+    "logo": "https://yt3.googleusercontent.com/xlWD0qd8pfT10sbCc0yWq08MQ_NedPm-zF9Y2L6xWzTcwjy-g5TEQyBAYbqOu6uYzMhDHMZvfw=s160-c-k-c0x00ffffff-no-rj"
+  }
 },
 "events": {
   "CppCon 2025": "https://www.youtube.com/playlist?list=PLHTh1InhhwT57vblPGsVag5MkTm_Z9-uq",
-  "CppCon 2022": "https://www.youtube.com/playlist?list=PLHTh1InhhwT6c2JNtUiJkaH8YRqzhU7Ag"
+  "CppCon 2022": "https://www.youtube.com/playlist?list=PLHTh1InhhwT6c2JNtUiJkaH8YRqzhU7Ag",
+  "GoingNative 2013": "https://www.youtube.com/playlist?list=PL09Ke5-ligfmlkBZRHA3HbEQSU2LanWti",
+  "BSC 2025": "https://www.youtube.com/playlist?list=PL9UIlfXuGJj8ipSycX1fXabdfxXlQZ5am"
 }
 }
