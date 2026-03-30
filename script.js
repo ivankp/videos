@@ -81,15 +81,14 @@ document.addEventListener('DOMContentLoaded', () => {
         ),
         $$('td', 'table', ['info'], t => {
           const channel = videos.channels[video.channel];
-          if (channel) {
-            $(t, 'tr', 'td',
-              'a', ['channel'], { href: 'https://www.youtube.com/' + (
+          $(t, 'tr', 'td',
+            channel ? $$('a', ['channel'], { href: 'https://www.youtube.com/' + (
                 channel.at ? '@' + channel.at : 'channel/' + channel.id
               ) },
                 $$('img', { src: channel.logo }),
                 $$('span', { text: channel.name })
-            );
-          }
+            ) : $$('span', { text: video.channel })
+          );
           $(t, 'tr', 'td', { text: video.title });
           $then(video.speaker, text => $(t, 'tr', 'td', { text }));
           if (video.event) {

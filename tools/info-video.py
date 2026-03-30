@@ -18,9 +18,12 @@ get('id')
 # get('channel_id', 'channel')
 get('channel_url', 'channel')
 get('fulltitle', 'title')
+out['speaker'] = ''
+out['event'] = ''
 # get('description')
 get('duration')
 get('upload_date', 'uploaded', lambda x: f'{x[:4]}-{x[4:6]}-{x[6:]}')
+out['found'] = ''
 get('tags')
 
 print(json.dumps(out, indent=2, separators=(',',': ')))

@@ -16,6 +16,16 @@
   "uploaded": "2022-10-17",
   "found": "2026-03-25"
 },{
+  "id": "b6pYieNd_OY",
+  "channel": "ACCU",
+  "title": "C++ Coroutines Demystified",
+  "speaker": "Phil Nash",
+  "event": "ACCU 2025",
+  "duration": 5468,
+  "uploaded": "2025-08-06",
+  "found": "2026-03-19",
+  "tags": [ "c++", "coroutines" ]
+},{
   "id": "EGqz7vmoKco",
   "channel": "CppCon",
   "title": "C++ Coroutines, from Scratch",
@@ -97,6 +107,7 @@
   "event": "C++ on Sea 2025",
   "duration": 4270,
   "uploaded": "2025-08-14",
+  "found": "2026-01-23",
   "tags": [ "c++", "c++26", "reflection", "safe", "execution" ]
 },{
   "id": "YXIVw6QFgAI",
@@ -116,8 +127,67 @@
   "duration": 4189,
   "uploaded": "2024-12-13",
   "tags": [ "c++", "reflection" ]
+},{
+  "id": "3W0vE_VKokY",
+  "channel": "CppCon",
+  "title": "Compiler Explorer: The Features You Never Knew Existed",
+  "speaker": "Matt Godbolt",
+  "event": "CppCon 2025",
+  "duration": 3608,
+  "uploaded": "2026-01-30",
+  "found": "2026-02-05",
+  "tags": [ "compiler explorer", "c++", "compilers" ]
+},{
+  "id": "qmte-ZrzBKU",
+  "channel": "cpponsea",
+  "title": "Understanding Large and Unfamiliar Codebases",
+  "speaker": "Mike Shah & Chris Croft-White",
+  "event": "C++ on Sea 2025",
+  "duration": 3493,
+  "uploaded": "2025-10-23",
+  "found": "2026-01-26",
+  "tags": [ "codebases", "code", "tools", "debugging", "conference", "large codebases", "legacy code", "c++" ]
+},{
+  "id": "oitYvDe4nps",
+  "channel": "CppCon",
+  "title": "The Joy of C++26 Contracts - Myths, Misconceptions & Defensive Programming",
+  "speaker": "Herb Sutter",
+  "event": "CppCon 2025",
+  "duration": 3769,
+  "uploaded": "2025-11-21",
+  "found": "2026-01-23",
+  "tags": [ "c++", "c++26", "contracts" ]
+},{
+  "id": "SmlLdd1Q2V8",
+  "channel": "Logan Smith",
+  "title": "Cursed C++ Casts",
+  "duration": 1060,
+  "uploaded": "2023-10-19",
+  "found": "2025-10-21",
+  "tags": [ "c++", "public_cast" ]
+},{
+  "id": "yriNqhv-oM0",
+  "channel": "CppCon",
+  "title": "Template-less Metaprogramming in C++",
+  "speaker": "Kris Jusiak",
+  "event": "CppCon 2024",
+  "duration": 3792,
+  "uploaded": "2025-03-13",
+  "found": "2025-05-15",
+  "tags": [ "c++", "metaprogramming", "templates" ]
+},{
+  "id": "xmqkRcAslw8",
+  "channel": "CppCon",
+  "title": "C++26 Preview - The Smaller Features",
+  "speaker": "Jeff Garland",
+  "event": "CppCon 2024",
+  "duration": 3741,
+  "uploaded": "2024-11-14",
+  "found": "2025-05-02",
+  "tags": [ "c++", "c++26", "features" ]
 }
 ],
+
 "channels": {
   "CppCon": {
     "name": "CppCon",
@@ -135,6 +205,11 @@
     "name": "NDC Conferences",
     "at": "NDC",
     "logo": "https://yt3.googleusercontent.com/ytc/AIdro_m9F60Dip2aA-2SkED8ssMmJ1oAiqU7JVevR8ZWKnqsNnU=s160-c-k-c0x00ffffff-no-rj"
+  },
+  "ACCU": {
+    "name": "ACCU Conference",
+    "at": "ACCUConf",
+    "logo": "https://yt3.googleusercontent.com/a7ubWL8qOSaG_rCd-uquCjRfU5kFYsbXlAFnzlWEgx27teer1Q7fvkp7enA5OvqwQnZEPDeiuw=s160-c-k-c0x00ffffff-no-rj"
   },
   "BetterSoftwareConference": {
     "name": "Better Software Conference",
@@ -157,14 +232,21 @@
     "name": "Tsoding Daily",
     "at": "TsodingDaily",
     "logo": "https://yt3.googleusercontent.com/sVrBLZ9iy76XIN5eSdlLqLVQsy60VaQ_YD_Vvu1tTyRIw5Yk9OZK2ZoKhiZh4svRMzm6OZ_M=s160-c-k-c0x00ffffff-no-rj"
+  },
+  "Logan Smith": {
+    "name": "Logan Smith",
+    "at": "_noisecode",
+    "logo": "https://yt3.googleusercontent.com/RoANgiQhi45DG3O-2rqUVhh8PIu4nZOBU5HcJFKUurQ0RacO1Zy-84zd15q2Wv_iZg1edhx4=s160-c-k-c0x00ffffff-no-rj"
   }
 },
+
 "events": {
   "CppCon 2025": "https://www.youtube.com/playlist?list=PLHTh1InhhwT57vblPGsVag5MkTm_Z9-uq",
   "CppCon 2024": "https://www.youtube.com/playlist?list=PLHTh1InhhwT6U7t1yP2K8AtTEKmcM3XU_",
   "CppCon 2022": "https://www.youtube.com/playlist?list=PLHTh1InhhwT6c2JNtUiJkaH8YRqzhU7Ag",
-  "GoingNative 2013": "https://www.youtube.com/playlist?list=PL09Ke5-ligfmlkBZRHA3HbEQSU2LanWti",
+  "C++ on Sea 2025": "https://www.youtube.com/playlist?list=PL5XXu3X6L7jsyWJKlIdo9ZNujqATJEMWL",
+  "ACCU 2025": "https://www.youtube.com/playlist?list=PL9hrFapz4dsOF2seghPwgXx6OcI7Fdbco",
   "BSC 2025": "https://www.youtube.com/playlist?list=PL9UIlfXuGJj8ipSycX1fXabdfxXlQZ5am",
-  "C++ on Sea 2025": "https://www.youtube.com/playlist?list=PL5XXu3X6L7jsyWJKlIdo9ZNujqATJEMWL"
+  "GoingNative 2013": "https://www.youtube.com/playlist?list=PL09Ke5-ligfmlkBZRHA3HbEQSU2LanWti"
 }
 }
