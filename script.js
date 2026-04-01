@@ -50,8 +50,6 @@ const $$ = (...args) => p => $(p, ...args);
 
 const $then = (x, f) => x != null ? f(x) : null;
 
-const months = ['Jan','Feb','Mar','Apr','May','June','July','Aug','Sep','Oct','Nov','Dec'];
-
 const $fetch = async (url, json = true) => {
   try {
     const resp = await fetch(url, { referrer: '' });
@@ -62,9 +60,10 @@ const $fetch = async (url, json = true) => {
   }
 };
 
+const months = ['Jan','Feb','Mar','Apr','May','June','July','Aug','Sep','Oct','Nov','Dec'];
 const date = d => {
-  d = new Date(d);
-  return `${months[d.getMonth()]} ${d.getDate()}, ${d.getFullYear()}`;
+  const [ year, month, day ] = d.split('-');
+  return `${months[Number.parseInt(month)]} ${day}, ${year}`;
 };
 
 const channel_logo = channel => {
