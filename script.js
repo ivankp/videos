@@ -67,6 +67,14 @@ const date = d => {
   return `${months[d.getMonth()]} ${d.getDate()}, ${d.getFullYear()}`;
 };
 
+const channel_logo = channel => {
+  let src = channel.logo;
+  if (src == null) return x => { };
+  if (src.startsWith('yt3:'))
+    src = `https://yt3.googleusercontent.com/${src.slice(4)}=s48-c-k-c0x00ffffff-no-rj`;
+  return $$('img', { src });
+};
+
 document.addEventListener('DOMContentLoaded', () => {
   $fetch('videos.json').then(videos => {
     const table = $(document.body, 'table', { id: 'videos' });
@@ -85,7 +93,7 @@ document.addEventListener('DOMContentLoaded', () => {
             channel ? $$('a', ['channel'], { href: 'https://www.youtube.com/' + (
                 channel.at ? '@' + channel.at : 'channel/' + channel.id
               ) },
-                $$('img', { src: channel.logo }),
+                channel_logo(channel),
                 $$('span', { text: channel.name })
             ) : $$('span', { text: video.channel })
           );

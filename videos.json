@@ -185,6 +185,85 @@
   "uploaded": "2024-11-14",
   "found": "2025-05-02",
   "tags": [ "c++", "c++26", "features" ]
+},{
+  "id": "SUIUZ09mnwM",
+  "channel": "DevTernity",
+  "title": "Seven Ineffective Coding Habits of Many Programmers",
+  "speaker": "Kevlin Henney",
+  "duration": 3267,
+  "uploaded": "2016-12-22",
+  "found": "2020-06-15",
+  "tags": [ "software architecture", "clean code", "code design" ]
+},{
+  "id": "kmFcNyZrUNM",
+  "channel": "BrewingAgile",
+  "title": "Agility \u2260 Speed",
+  "speaker": "Kevlin Henney",
+  "event": "Brewing Agile 2018",
+  "duration": 4106,
+  "uploaded": "2018-11-24",
+  "found": "2020-06-15",
+  "tags": [ "Agile", "Scrum", "Lean" ]
+},{
+  "id": "AbgsfeGvg3E",
+  "channel": "goto",
+  "title": "Old Is the New New",
+  "speaker": "Kevlin Henney",
+  "event": "GOTO 2018",
+  "duration": 3023,
+  "uploaded": "2018-05-15",
+  "found": "2020-06-14",
+  "tags": [ "Architecture", "Languages" ]
+},{
+  "id": "SFv8Wm2HdNM",
+  "channel": "cpponsea",
+  "title": "The Forgotten Art of Structured Programming",
+  "speaker": "Kevlin Henney",
+  "event": "C++ on Sea 2019",
+  "duration": 5367,
+  "uploaded": "2019-02-15",
+  "found": "2020-06-03",
+  "tags": [ "oop" ]
+},{
+  "id": "ecIWPzGEbFc",
+  "channel": "PaulStringersMobileTech",
+  "title": "The Future of Programming",
+  "speaker": "\"Uncle\" Bob Martin",
+  "event": "",
+  "duration": 4701,
+  "uploaded": "2016-05-18",
+  "found": "2020-06-02",
+  "tags": [ "Computer History", "Clean Code" ]
+},{
+  "id": "6avJHaC3C2U",
+  "channel": "NDC",
+  "title": "The Art of Code",
+  "speaker": "Dylan Beattie",
+  "event": "NDC London 2020",
+  "duration": 3648,
+  "uploaded": "2020-02-26",
+  "found": "2020-06-01",
+  "tags": [ ]
+},{
+  "id": "FyCYva9DhsI",
+  "channel": "NDC",
+  "title": "Clean Coders Hate What Happens to Your Code When You Use These Enterprise Programming Tricks",
+  "speaker": "Kevlin Henney",
+  "event": "NDC London 2017",
+  "duration": 4283,
+  "uploaded": "2017-02-27",
+  "found": "2017-09-02",
+  "tags": [ ]
+},{
+  "id": "GjhsSzRtTGY",
+  "channel": "CppNow",
+  "title": "Haskell -- The Pseudocode Language for C++ Template Metaprogramming (Part 1)",
+  "speaker": "Bartosz Milewski",
+  "event": "BoostCon 2011",
+  "duration": 11853,
+  "uploaded": "2013-10-29",
+  "found": "2017-07-25",
+  "tags": [ ]
 }
 ],
 
@@ -192,51 +271,82 @@
   "CppCon": {
     "name": "CppCon",
     "at": "CppCon",
-    "id": "https://www.youtube.com/channel/UCMlGfpWw-RUdWX_JbLCukXg",
-    "logo": "https://yt3.googleusercontent.com/ytc/AIdro_l0Ji0L8P1v-r0c5MwPcEUM9NwrhI-B7NK9qF2sO6oM-w=s160-c-k-c0x00ffffff-no-rj"
+    "id": "UCMlGfpWw-RUdWX_JbLCukXg",
+    "logo": "yt3:ytc/AIdro_l0Ji0L8P1v-r0c5MwPcEUM9NwrhI-B7NK9qF2sO6oM-w"
   },
   "cpponsea": {
     "name": "C++ on Sea",
     "at": "cpponsea",
     "id": "UCAczr0j6ZuiVaiGFZ4qxApw",
-    "logo": "https://yt3.googleusercontent.com/ytc/AIdro_nO-T3DgXHMAvvTXAexnpns_--YHAJqfDt_n-CHuwLgYA=s160-c-k-c0x00ffffff-no-rj"
+    "logo": "yt3:ytc/AIdro_nO-T3DgXHMAvvTXAexnpns_--YHAJqfDt_n-CHuwLgYA"
+  },
+  "CppNow": {
+    "name": "CppNow",
+    "at": "CppNow",
+    "id": "UC5e__RG9K3cHrPotPABnrwg",
+    "logo": "yt3:ytc/AIdro_l3B9cDDS8zlgWAKFzKMcdMimITomXNPZHYlsQXgIW9Uw"
   },
   "NDC": {
     "name": "NDC Conferences",
     "at": "NDC",
-    "logo": "https://yt3.googleusercontent.com/ytc/AIdro_m9F60Dip2aA-2SkED8ssMmJ1oAiqU7JVevR8ZWKnqsNnU=s160-c-k-c0x00ffffff-no-rj"
+    "id": "UCTdw38Cw6jcm0atBPA39a0Q",
+    "logo": "yt3:ytc/AIdro_m9F60Dip2aA-2SkED8ssMmJ1oAiqU7JVevR8ZWKnqsNnU"
+  },
+  "goto": {
+    "name": "GOTO Conferences",
+    "at": "GOTO-",
+    "id": "UCs_tLP3AiwYKwdUHpltJPuA",
+    "logo": "yt3:DGZrs_HUrQ_FhFZluFSetLFtf2oD8o02HMfcjF6Z2IsMcxZJuZywBx0MEwsb7m8Pk4gK-yLWnw"
   },
   "ACCU": {
     "name": "ACCU Conference",
     "at": "ACCUConf",
-    "logo": "https://yt3.googleusercontent.com/a7ubWL8qOSaG_rCd-uquCjRfU5kFYsbXlAFnzlWEgx27teer1Q7fvkp7enA5OvqwQnZEPDeiuw=s160-c-k-c0x00ffffff-no-rj"
+    "logo": "yt3:a7ubWL8qOSaG_rCd-uquCjRfU5kFYsbXlAFnzlWEgx27teer1Q7fvkp7enA5OvqwQnZEPDeiuw"
   },
   "BetterSoftwareConference": {
     "name": "Better Software Conference",
     "at": "BetterSoftwareConference",
     "id": "UCYI-TL0LoFRl1gFnnUFwdow",
-    "logo": "https://yt3.googleusercontent.com/xlWD0qd8pfT10sbCc0yWq08MQ_NedPm-zF9Y2L6xWzTcwjy-g5TEQyBAYbqOu6uYzMhDHMZvfw=s160-c-k-c0x00ffffff-no-rj"
+    "logo": "yt3:xlWD0qd8pfT10sbCc0yWq08MQ_NedPm-zF9Y2L6xWzTcwjy-g5TEQyBAYbqOu6uYzMhDHMZvfw"
+  },
+  "BrewingAgile": {
+    "name": "BrewingAgile",
+    "at": "brewingagile748",
+    "id": "UC9-2qeJ22gwSzBAILNJ7CRw",
+    "logo": "yt3:ytc/AIdro_mSm6YcOMEOdbbbWgQ0rjnaDd9m2pDV9OFac6sVv_AlWw"
   },
   "veritasium": {
     "name": "Veritasium",
     "at": "veritasium",
-    "logo": "https://yt3.googleusercontent.com/7vCbvtCqtjQ3YLgsJt7Y952MQV1sBvhllSCSxHP8_sVZdcPCBrITfhkN2RdyCuwPnsByq-1GoA=s160-c-k-c0x00ffffff-no-rj"
+    "logo": "yt3:7vCbvtCqtjQ3YLgsJt7Y952MQV1sBvhllSCSxHP8_sVZdcPCBrITfhkN2RdyCuwPnsByq-1GoA"
   },
   "PauloPortela": {
     "name": "Paulo Portela",
     "at": "PauloPortela",
     "id": "UCJwyXCf_TbyjbTNYG4q2XaQ",
-    "logo": "https://yt3.googleusercontent.com/ytc/AIdro_n1B_QvWEEe5hKvydt18PqyV8_kqrj8I42U9OenxwdKv9o=s160-c-k-c0x00ffffff-no-rj"
+    "logo": "yt3:ytc/AIdro_n1B_QvWEEe5hKvydt18PqyV8_kqrj8I42U9OenxwdKv9o"
   },
   "TsodingDaily": {
     "name": "Tsoding Daily",
     "at": "TsodingDaily",
-    "logo": "https://yt3.googleusercontent.com/sVrBLZ9iy76XIN5eSdlLqLVQsy60VaQ_YD_Vvu1tTyRIw5Yk9OZK2ZoKhiZh4svRMzm6OZ_M=s160-c-k-c0x00ffffff-no-rj"
+    "logo": "yt3:sVrBLZ9iy76XIN5eSdlLqLVQsy60VaQ_YD_Vvu1tTyRIw5Yk9OZK2ZoKhiZh4svRMzm6OZ_M"
   },
   "Logan Smith": {
     "name": "Logan Smith",
     "at": "_noisecode",
-    "logo": "https://yt3.googleusercontent.com/RoANgiQhi45DG3O-2rqUVhh8PIu4nZOBU5HcJFKUurQ0RacO1Zy-84zd15q2Wv_iZg1edhx4=s160-c-k-c0x00ffffff-no-rj"
+    "logo": "yt3:RoANgiQhi45DG3O-2rqUVhh8PIu4nZOBU5HcJFKUurQ0RacO1Zy-84zd15q2Wv_iZg1edhx4"
+  },
+  "DevTernity": {
+    "name": "DevTernity Conference",
+    "at": "DevTernity",
+    "id": "UCvzMZyJZZ3XYQwbvOACVYrQ",
+    "logo": "yt3:gTDWnMb3nFHCq50y3nRPYHnYXjJBiV0dUOU4SNqGdmRGbVQdEB29hUxPxdTtesjGxVcuee8jWw"
+  },
+  "PaulStringersMobileTech": {
+    "name": "Paul Stringer's Mobile Tech",
+    "at": "ExpertTalksMobile",
+    "id": "UCr5AKH-Ooht17f2xxRaX3ag",
+    "logo": "yt3:ytc/AIdro_lhfwq6enrAjN6wjvbuQ9lNgyinTk3-IL3d3y0j_bOcLvI"
   }
 },
 
@@ -245,8 +355,14 @@
   "CppCon 2024": "https://www.youtube.com/playlist?list=PLHTh1InhhwT6U7t1yP2K8AtTEKmcM3XU_",
   "CppCon 2022": "https://www.youtube.com/playlist?list=PLHTh1InhhwT6c2JNtUiJkaH8YRqzhU7Ag",
   "C++ on Sea 2025": "https://www.youtube.com/playlist?list=PL5XXu3X6L7jsyWJKlIdo9ZNujqATJEMWL",
+  "C++ on Sea 2019": "https://www.youtube.com/playlist?list=PL5XXu3X6L7jtk7-GIVq3-bkKDKDtoagj4",
   "ACCU 2025": "https://www.youtube.com/playlist?list=PL9hrFapz4dsOF2seghPwgXx6OcI7Fdbco",
   "BSC 2025": "https://www.youtube.com/playlist?list=PL9UIlfXuGJj8ipSycX1fXabdfxXlQZ5am",
-  "GoingNative 2013": "https://www.youtube.com/playlist?list=PL09Ke5-ligfmlkBZRHA3HbEQSU2LanWti"
+  "GoingNative 2013": "https://www.youtube.com/playlist?list=PL09Ke5-ligfmlkBZRHA3HbEQSU2LanWti",
+  "NDC London 2020": "https://www.youtube.com/playlist?list=PL03Lrmd9CiGeteXRzmn27mnlHKgOEACi2",
+  "NDC London 2017": "https://www.youtube.com/playlist?list=PL03Lrmd9CiGf2iIh4x8HM4iKmi6PhCe96",
+  "BoostCon 2011": "https://github.com/boostcon/2011_presentations",
+  "GOTO 2018": "https://www.youtube.com/playlist?list=PLEx5khR4g7PKqVew27D3jvMknjxjowoKl",
+  "Brewing Agile 2018": "https://www.youtube.com/playlist?list=PLHHf6uIAMa4_9mkX21U1g9UCW69Dby_gY"
 }
 }
