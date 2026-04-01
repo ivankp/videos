@@ -301,6 +301,7 @@
   "ACCU": {
     "name": "ACCU Conference",
     "at": "ACCUConf",
+    "id": "UCJhay24LTpO1s4bIZxuIqKw",
     "logo": "yt3:a7ubWL8qOSaG_rCd-uquCjRfU5kFYsbXlAFnzlWEgx27teer1Q7fvkp7enA5OvqwQnZEPDeiuw"
   },
   "BetterSoftwareConference": {
@@ -318,6 +319,7 @@
   "veritasium": {
     "name": "Veritasium",
     "at": "veritasium",
+    "id": "UCHnyfMqiRRG1u-2MsSQLbXA",
     "logo": "yt3:7vCbvtCqtjQ3YLgsJt7Y952MQV1sBvhllSCSxHP8_sVZdcPCBrITfhkN2RdyCuwPnsByq-1GoA"
   },
   "PauloPortela": {
@@ -329,11 +331,13 @@
   "TsodingDaily": {
     "name": "Tsoding Daily",
     "at": "TsodingDaily",
+    "id": "UCrqM0Ym_NbK1fqeQG2VIohg",
     "logo": "yt3:sVrBLZ9iy76XIN5eSdlLqLVQsy60VaQ_YD_Vvu1tTyRIw5Yk9OZK2ZoKhiZh4svRMzm6OZ_M"
   },
   "Logan Smith": {
     "name": "Logan Smith",
     "at": "_noisecode",
+    "id": "UCnHX5FjwtQpxkCGziuh4NJA",
     "logo": "yt3:RoANgiQhi45DG3O-2rqUVhh8PIu4nZOBU5HcJFKUurQ0RacO1Zy-84zd15q2Wv_iZg1edhx4"
   },
   "DevTernity": {
