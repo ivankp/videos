@@ -1,5 +1,13 @@
 {
 "videos": [{
+  "id": "HIVBhKj7gQU",
+  "title": "Parallelizing the Naughty Dog Engine Using Fibers",
+  "speaker": "Christian Gyrling",
+  "event": "GDC 2015",
+  "uploaded": "2015-03-06",
+  "found": "2026-04-01",
+  "description": "https://gdcvault.com/play/1022186/Parallelizing-the-Naughty-Dog-Engine"
+},{
   "id": "zB6ORpZjneQ",
   "title": "The Pattern Matching We Already Have",
   "speaker": "Braden Ganetsky",
