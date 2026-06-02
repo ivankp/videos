@@ -63,7 +63,7 @@ const $fetch = async (url, json = true) => {
 const months = ['Jan','Feb','Mar','Apr','May','June','July','Aug','Sep','Oct','Nov','Dec'];
 const date = d => {
   const [ year, month, day ] = d.split('-');
-  return `${months[Number.parseInt(month)]} ${day}, ${year}`;
+  return `${months[Number.parseInt(month-1)]} ${day}, ${year}`;
 };
 
 const channel_logo = channel => {
