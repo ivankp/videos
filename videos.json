@@ -1,5 +1,14 @@
 {
 "videos": [{
+  "id": "FHkRPqriuvw",
+  "channel": "ACCU",
+  "title": "Agility \u2260 Speed - Agile Development",
+  "speaker": "Kevlin Henney",
+  "event": "ACCU 2025",
+  "uploaded": "2025-08-15",
+  "found": "2026-06-01",
+  "description": "New talk, old title"
+},{
   "id": "HIVBhKj7gQU",
   "title": "Parallelizing the Naughty Dog Engine Using Fibers",
   "speaker": "Christian Gyrling",
